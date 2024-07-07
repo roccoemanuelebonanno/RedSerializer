@@ -1,10 +1,10 @@
 class Serializer
-  def initialize(klass)
-    @klass = klass
+  def initialize(object)
+    @object = object
   end
 
   def serialize
-    attributes = @klass.attribute_names
+    attributes = @object.attribute_names
     hash = {}
     attributes.each do |attribute|
       hash[attribute.to_sym] = obj[attribute]

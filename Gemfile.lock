@@ -55,10 +55,10 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  rake (~> 13.0)
+  rake
   red_serializer!
-  rspec (~> 3.0)
-  rubocop (~> 1.21)
+  rspec
+  rubocop
 
 BUNDLED WITH
    2.5.14
